@@ -1,0 +1,133 @@
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+h1,
+h2,
+p {
+  margin: 0;
+}
+.imgBck {
+  background-image: url("Backdrop.png");
+  background-size: cover;
+  height: 500px;
+  width: 100%;
+  background-position: 0 90px;
+  background-repeat: no-repeat;
+}
+
+.container-blue {
+  background-color: #33a0d9;
+  height: 80px;
+  /* height: 14vh; */
+}
+
+/* .scene {
+  position: relative;
+  width: 1263px;
+  top: 81px;
+} */
+
+.align {
+  margin-right: 35px;
+}
+
+.align-items-2 {
+  margin-right: 22vh;
+}
+
+.align-items-1 {
+  margin-right: 12vw;
+}
+
+.input-field {
+  width: 21vw;
+  border-color: black;
+}
+
+.content {
+  height: 500px;
+}
+
+.login {
+  background-color: aliceblue;
+  width: 18vh;
+  border-radius: 4px;
+  height: 30px;
+  padding-top: 4px;
+}
+
+li {
+  font-weight: bold;
+}
+
+.logo {
+  width: 20vh;
+  margin-left: 13vh;
+}
+
+.list {
+  list-style: none;
+  margin-right: 15vh;
+}
+
+.flex-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 14vh;
+}
+
+.foot-elements {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10vh;
+  list-style: none;
+  background-color: #2180b3;
+  height: 15vh;
+  margin: auto;
+  padding-left: 36vh;
+  color: aliceblue;
+}
+
+.main {
+  /* position: absolute; */
+  margin-top: 85px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.btn {
+  font-weight: bold;
+}
+
+.dontMatch {
+  display: none;
+}
+
+.btn {
+  width: 21vw;
+  margin-top: 52px;
+  height: 30px;
+  background-color: black;
+  color: aliceblue;
+  border-radius: 4px;
+}
+
+.flex-changed {
+  display: flex;
+  flex-direction: column;
+  margin-top: 110px;
+  align-items: center;
+}
+.heading-changed {
+  margin-bottom: 14px;
+}
